@@ -91,7 +91,7 @@ opencart-functional-testing/ ├── docs/ # Test plan and summary report ├�
   - Consider automation for regression coverage  
 
 ---
-> Load-Stree Test result are in This page:
-<a href = "https://blazer0928.github.io/opencart-testing/">
+> Load-Stree test result are in this page: [https://blazer0928.github.io/opencart-testing/]
+
 > 💡 **Contributors are welcome** to improve test coverage, automate scripts, or suggest improvements!
 
