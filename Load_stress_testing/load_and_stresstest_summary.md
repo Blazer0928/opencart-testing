@@ -36,10 +36,10 @@ This report documents **load and stress testing** conducted on a local instance 
 - **Stress Test**: 100 users, 100-second ramp-up  
 - **Timings**: 2000–3000 ms between actions  
 
-> **View full HTML dashboards:**  
-> - 📈 [Load Report (HTML Dashboard)](Load_stress_testing/load_report/index.html)  
-> - 📈 [Stress Report (HTML Dashboard)](Load_stress_testing/load_report_stress/index.html)
+> **View full HTML dashboards:**
 
+> - 📈 [View Load Report](https://Blazer0928.github.io/opencart-testing/docs/load_report/index.html)
+> - 📈 [View Stress Report](https://Blazer0928.github.io/opencart-testing/docs/load_report_stress/index.html)
 ---
 
 ## 📉 Key Performance Insights
@@ -117,8 +117,9 @@ If you encounter issues or want assistance analyzing the results:
 
 ## 📈 Quick Links
 
-- 📄 [Load Report (HTML Dashboard)](Load_stress_testing/load_report/index.html)  
-- 📄 [Stress Report (HTML Dashboard)](Load_stress_testing/load_report_stress/index.html)
+ 
+> - 📈 [View Load Report](https://Blazer0928.github.io/opencart-testing/docs/load_report/index.html)
+> - 📈 [View Stress Report](https://Blazer0928.github.io/opencart-testing/docs/load_report_stress/index.html)
 
 ---
 
