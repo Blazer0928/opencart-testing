@@ -2,17 +2,15 @@
 
 This repository contains a Postman collection for interacting with the OpenCart REST API. The collection includes various endpoints related to cart, currency, and coupon management.
 Table of Contents
-- Pre-requisites
--  Collection Overview
+-    Pre-requisites
+-    Collection Overview
 -    How to Set Up
 -    API Endpoints
--       Cart
--      Currency
--     Coupon
-
-    Testing and Validation
-
-    Environment Variables
+-    Cart
+-    Currency
+-    Coupon
+-    Testing and Validation
+-    Environment Variables
 
 ## Pre-requisites
 
@@ -38,25 +36,25 @@ The OpenCart API collection contains the following sections:
 
 -    Import the Postman Collection:
 
--        Download the collection JSON file.
+-    Download the collection JSON file.
 
- -       Open Postman and import the collection using the "Import" button.
+ -   Open Postman and import the collection using the "Import" button.
 
   -  Set Up Environment Variables:
 
-   -     Ensure you have set up the following environment variables in Postman:
+-    Ensure you have set up the following environment variables in Postman:
 -
- -           {{BaseUrl}}: Your OpenCart API base URL (e.g., http://your-opencart-site.com/).
+ -   {{BaseUrl}}: Your OpenCart API base URL (e.g., http://your-opencart-site.com/).
 -
- -           {{api_token_val}}: The API token required for authentication.
+ -   {{api_token_val}}: The API token required for authentication.
 -
-            {{product_id}}: The ID of a product to be used in the cart (can be dynamically set as shown in the collection).
+     {{product_id}}: The ID of a product to be used in the cart (can be dynamically set as shown in the collection).
 -
- -           {{quantity}}: The quantity of the product (can be dynamically set).
+ -   {{quantity}}: The quantity of the product (can be dynamically set).
 -
- -           {{currency}}: The currency for the session (e.g., USD).
+ -   {{currency}}: The currency for the session (e.g., USD).
 -
- -           {{coupon}}: The coupon code to apply.
+ -   {{coupon}}: The coupon code to apply.
 -
 ## API Endpoints
 1. Cart
