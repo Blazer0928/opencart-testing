@@ -1,7 +1,13 @@
-# 🛒 OpenCart Functional Testing Repository
+# 🛒 OpenCart  Testing Repository
 
 ## 📌 Objective
-Document functional testing results for **OpenCart**, conducted April 24–25, 2025, to validate core modules across desktop and mobile platforms.
+Document various types testing and store results for **OpenCart**, conducted April 24–27, 2025.
+
+1. Functional Testing
+2. UI-UX Testing
+3. Load-Stress Testing
+4. API Testing
+5. Security Testing
 
 ---
 
@@ -69,9 +75,18 @@ Document functional testing results for **OpenCart**, conducted April 24–25, 2
 
 ## 📂 Repository Structure
 
-- |-> Test_cases contains the Functional/UI-UX test cases
-- |-> Bug-Report directory have the Bug-Report sheet attached to it.
-- |-> api-testing directory contain the postman json configuration file and API_TESTING_readme.md file for walkthrough
-- |-> docs directory have the Load testing results
-- |-> Load_Stree_testing directory contains the load and stress test configuration in .jmx format
+- -> Test_cases contains the Functional/UI-UX test cases
+- -> Bug-Report directory have the Bug-Report sheet attached to it.
+- -> api-testing directory contain the postman json configuration file and API_TESTING_readme.md file for walkthrough
+- -> docs directory have the Load testing results
+- -> Load_Stree_testing directory contains the load and stress test configuration in .jmx format
 
+
+## Load-Stress Testing
+- The report statistics for stress testing with 100 users [https://blazer0928.github.io/opencart-testing/stress_report]
+- The repost statistics for Load testiing with 50 users [https://blazer0928.github.io/opencart-testing/load_report]
+
+
+## Security Report 
+- using a automated vulnerability tester for Security analysis. I used tool called "nikto".
+- The report is attached here []
