@@ -88,6 +88,5 @@ This report summarizes the functional testing of the OpenCart e-commerce platfor
 ## 📂 Artifacts
 
 - **Test Cases** → [`/test_cases/`](../test_cases/)  
-- **Bug Reports** → [`/bug_reports/bug_report_sheet.md`](../bug_reports/bug_report_sheet.md)  
-- **Supporting Files** → [`/bug_reports/attachments/`](../bug_reports/attachments/) *(Add screenshots, logs as needed)*
+- **Bug Reports** → [`/bug_reports/bug_report_sheet.md`](../bug_report/)  
 
