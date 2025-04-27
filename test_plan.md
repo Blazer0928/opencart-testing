@@ -61,6 +61,6 @@ Validate the functionality of OpenCart’s core modules to ensure a seamless use
 ## 📦 Deliverables
 
 - Test cases → [`/test_cases/`](test_cases/)  
-- Bug report sheet → [`/bug_reports/bug_report_sheet.md`](bug_reports/bug_report_sheet.md)  
-- Summary report → [`/test_summary_report.md`](docs/test_summary_report.md)
+- Bug report sheet → [`/bug_reports/bug_report_sheet.md`](bug_reports/)  
+- Summary report → [`/test_summary_report.md`](test_summary_report.md)
 
