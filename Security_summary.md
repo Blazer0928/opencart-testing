@@ -1,5 +1,25 @@
 # 🛡️ OpenCart Vulnerability Report (Nikto Scan)
 
+## Input validation
+1. Cross-Site Scripting (XSS)
+- Where:  User profile fields, search bars, comments, product reviews, etc.
+- If OpenCart doesn't properly escape user input in these fields, an attacker might inject a malicious script that executes when other users load the page.
+
+2. SQL Injection (SQLi)
+- Where: Login forms, search functionality, URL parameters, or admin panel queries. 
+
+- Example: If OpenCart doesn't sanitize inputs correctly in login forms, an attacker might exploit it by entering SQL injection payloads like ' OR 1=1 -- to bypass authentication. 
+
+3.  Insecure Direct Object References (IDOR)
+- Where: URLs with object IDs, such as viewing other users’ orders.
+- Example: If OpenCart doesn't properly check for user ownership of resources, attackers could modify order IDs or user IDs in the URL (e.g., order.php?id=1234) to view someone else’s data.
+4. Cross-Site Request Forgery (CSRF)
+- Where: Forms that modify user data (e.g., change password, change email).
+
+- Example: Without proper CSRF protection, an attacker could trick a logged-in user into submitting a request (like changing their email or password) without their consent.
+
+-      All of the common input validation vulnerabilities mentioned are relevant to OpenCart, especially in areas like user registration, login, product search, file uploads, and the admin panel. Proper validation and security measures need to be in place to mitigate these risks.
+
 - The Report in html (nikto scan)[https://Blazer0928.github.io/opencart-testing/security_report]
 
 **Scan Date**: April 26, 2025  

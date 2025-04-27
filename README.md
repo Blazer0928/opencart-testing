@@ -89,4 +89,6 @@ Document various types testing and store results for **OpenCart**, conducted Apr
 
 ## Security Report 
 - using a automated vulnerability tester for Security analysis. I used tool called "nikto".
-- The report is attached here []
+- The report is attached here [https://blazer0928.github.io/opencart-testing/security_report]
+
+
